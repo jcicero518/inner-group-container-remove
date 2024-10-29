@@ -1,0 +1,17 @@
+Index: web/modules/contrib/gutenberg/src/Plugin/Filter/GutenbergFilter.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/web/modules/contrib/gutenberg/src/Plugin/Filter/GutenbergFilter.php b/web/modules/contrib/gutenberg/src/Plugin/Filter/GutenbergFilter.php
+--- a/web/modules/contrib/gutenberg/src/Plugin/Filter/GutenbergFilter.php	
++++ b/web/modules/contrib/gutenberg/src/Plugin/Filter/GutenbergFilter.php	(date 1728464243000)
+@@ -205,7 +205,7 @@
+ 
+     // Restore the inner container for the group block.
+     if ($block['blockName'] === 'core/group') {
+-      $block_content = $this->restoreGroupInnerContainer($block, $block_content);
++      // $block_content = $this->restoreGroupInnerContainer($block, $block_content);
+     }
+ 
+     return $block_content;
